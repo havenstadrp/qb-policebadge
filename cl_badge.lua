@@ -45,7 +45,7 @@ AddEventHandler('showbadge', function()
         TriggerServerEvent('badge:open', GetPlayerServerId(PlayerId()), GetPlayerServerId(PlayerId()))
 		DeleteEntity(plate_net)
 		DeleteEntity(NetToObj(plate_net))
-	else 
+	else
 		TriggerServerEvent('badge:open', GetPlayerServerId(PlayerId()), GetPlayerServerId(PlayerId()))
 		DeleteEntity(plate_net)
 		DeleteEntity(NetToObj(plate_net))
@@ -90,7 +90,7 @@ AddEventHandler('badge:openPD', function()
 	disableMouse = false,
 	disableCombat = true,
 	disableInventory = true,
-}, {}, {}, {}, function()end, function()       
+}, {}, {}, {}, function()end, function()
 end)
 	startAnim()
 end)
